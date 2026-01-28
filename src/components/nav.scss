@@ -1,0 +1,19 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.414);
+    color: rgba(255, 255, 255, 0.85);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+    backdrop-filter: blur(10px);
+    font-size: medium-small;
+
+    .left,.right{
+        display: flex;
+        gap: 1rem;
+    }
+}
