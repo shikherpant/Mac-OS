@@ -1,0 +1,68 @@
+.cards{
+    overflow: scroll;
+    height: 100%;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    // background-color: yellow;
+    
+
+    .card{
+        max-width: 25rem;
+        max-height: 40rem;
+        border-radius: 0.75rem;
+        background-color: rgba(34, 34, 34, 0.608);
+        padding: 1rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        flex-grow: 2;
+        flex-basis: 15rem;
+        
+        img{
+            
+            width: 100%;
+            border-radius: 0.75rem;
+        }
+
+        h1{
+            color: rgb(217, 214, 214);
+            font-size: 1.5rem;
+            line-height: 1.6rem;
+            font-weight: 300;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        p{
+            word-spacing: 0.4rem;
+            line-height: 1.3rem;
+            color: rgba(188, 185, 185, 0.523);
+            // line-height: 1.1rem;
+        }
+
+        .tags{
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap:wrap;
+            
+            .tag{
+                font-size: 0.75rem;
+                font-weight: 500;
+                background-color: rgba(0, 255, 255, 0.851);
+                color: black;
+                width: fit-content;
+                padding: 0.2rem 0.5rem;
+                border-radius: 0.5rem;
+            }
+        }
+
+        .urls{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

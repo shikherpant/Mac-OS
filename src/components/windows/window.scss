@@ -1,6 +1,6 @@
 .mac-window{
-    height: 400px;
-    width: 600px;
+    height: 100%;
+    overflow: hidden;
     background-color: black;
     border-radius: 0.5rem;
     color: rgba(255, 255, 255, 0.85);
@@ -36,4 +36,10 @@
         }
         
     }
+
+    .content{
+        height: 100%;
+        // overflow: hidden;
+    }
 }
+
