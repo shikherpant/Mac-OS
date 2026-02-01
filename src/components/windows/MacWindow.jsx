@@ -12,7 +12,7 @@ const MacWindow = ({children}) => {
     }
     minWidth={400}
     minHeight={300}
-    bounds="parent"
+    // bounds="window"
     >
         <div className="mac-window">
             <div className="window-nav">
