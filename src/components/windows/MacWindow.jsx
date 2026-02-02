@@ -1,8 +1,14 @@
 import { Rnd } from "react-rnd"
+import { useRef } from "react";
 import './window.scss'
 const MacWindow = ({children}) => {
+    const nodeRef = useRef(null);
   return (
     <Rnd
+        nodeRef={nodeRef}
+        dragHandleClassName="window-nav"
+        enableUserSelectHack={false}
+        
         default={{
             x:50,
             y:30,
@@ -14,7 +20,7 @@ const MacWindow = ({children}) => {
     minHeight={300}
     // bounds="window"
     >
-        <div className="mac-window">
+        <div ref={nodeRef} className="mac-window">
             <div className="window-nav">
                 <div className="dots">
                     <div className="dot red"></div>

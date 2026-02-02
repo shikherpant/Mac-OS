@@ -1,0 +1,31 @@
+@import "react-quill/dist/quill.snow.css";
+
+
+.element-to-print{
+    height: 100%;
+    position: relative;
+
+    .editor{
+    background-color: white;
+    color: black;
+    height: 100%;
+    }
+
+    .download-btn{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translate(-15% , -150%);
+        color: rgba(255, 255, 255, 0.829);
+        background: linear-gradient(to bottom,rgb(4, 240, 4),rgb(2, 68, 2));
+        border-radius: 0.75rem;
+        padding: 0.2rem 0.5rem;
+        font-weight: 400;
+    }
+    .download-btn:hover{
+        scale: 0.95;
+        cursor: pointer;
+    }
+
+}
+

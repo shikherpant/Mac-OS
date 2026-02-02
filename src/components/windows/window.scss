@@ -13,6 +13,7 @@
         border-top-right-radius:0.5rem;
         display: flex;
         align-items: center;
+        cursor: grab;
 
         .dots{
             display: flex;
@@ -35,6 +36,9 @@
             }
         }
         
+    }
+    .window-nav:active{
+        cursor: grabbing;
     }
 
     .content{
