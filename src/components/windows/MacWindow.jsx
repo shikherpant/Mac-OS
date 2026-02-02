@@ -1,7 +1,7 @@
 import { Rnd } from "react-rnd"
 import { useRef } from "react";
 import './window.scss'
-const MacWindow = ({children}) => {
+const MacWindow = ({children,width="45vw",height="45vh",title="shikherpant -zsh"}) => {
     const nodeRef = useRef(null);
   return (
     <Rnd
@@ -12,8 +12,8 @@ const MacWindow = ({children}) => {
         default={{
             x:50,
             y:30,
-            width:"45vw",
-            height:"45vh",
+            width:width,
+            height:height,
         }
     }
     minWidth={400}
@@ -27,7 +27,7 @@ const MacWindow = ({children}) => {
                     <div className="dot yellow"></div>
                     <div className="dot green"></div>
                 </div>
-                <div className="title">shikherpant -zsh</div>
+                <div className="title">{title}</div>
             </div>
             <div className="content">
                 {children}

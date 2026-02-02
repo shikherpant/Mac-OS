@@ -29,10 +29,10 @@ const Notes = () => {
 
   return (
     <div>
-        <MacWindow>
+        <MacWindow title="Notes">
             <div className="element-to-print">
                 <ReactQuill className="editor" />
-                <div className="download-btn" onClick={()=>{downloadPDF()}}>Download ⬇</div>
+                <div className="download-btn" onClick={()=>{downloadPDF()}}>⬇</div>
             </div>  
         </MacWindow>
         

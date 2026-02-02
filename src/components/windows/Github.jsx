@@ -31,7 +31,7 @@ const Github = () => {
 
   return (
     <div>
-        <MacWindow>
+        <MacWindow title="Github">
             <div className="cards">
                 {
                     gitHubData.map((project, idx)=>{

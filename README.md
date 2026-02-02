@@ -4,3 +4,4 @@ Lib/Modules Used:
     Rnd - for dragable and resizable window
     React Quill - Note Editor
     html2pdf.js - to download html content into pdf format
+    react-console-emulator - for client based terminal window
