@@ -5,3 +5,4 @@ Lib/Modules Used:
     React Quill - Note Editor
     html2pdf.js - to download html content into pdf format
     react-console-emulator - for client based terminal window
+    Context API - for managing states for window open & close

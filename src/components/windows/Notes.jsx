@@ -29,7 +29,7 @@ const Notes = () => {
 
   return (
     <div>
-        <MacWindow title="Notes">
+        <MacWindow title="Notes" page="notes">
             <div className="element-to-print">
                 <ReactQuill className="editor" />
                 <div className="download-btn" onClick={()=>{downloadPDF()}}>⬇</div>

@@ -39,7 +39,7 @@ const TerminalWindow = () => {
 
   return (
     <div >
-        <MacWindow>
+        <MacWindow page="terminal">
           <div className="terminal-window">
             <Terminal
                 className="editor"

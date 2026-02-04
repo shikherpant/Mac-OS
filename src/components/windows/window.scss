@@ -27,12 +27,24 @@
             }
             .red{
                 background-color: #ff605c;
+                cursor:default;
+            }
+            .red:hover{
+                scale: 0.8;
             }
             .yellow{
                 background-color: #ffbd44;
+                cursor: default;
+            }
+            .yellow:hover{
+                scale: 0.8;
             }
             .green{
                 background-color: #00ca56;
+                cursor: default;
+            }
+            .green:hover{
+                scale: 0.8;
             }
         }
         

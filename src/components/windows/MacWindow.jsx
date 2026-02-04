@@ -1,8 +1,15 @@
 import { Rnd } from "react-rnd"
-import { useRef } from "react";
+import { useContext, useRef } from "react";
 import './window.scss'
-const MacWindow = ({children,width="45vw",height="45vh",title="shikherpant -zsh"}) => {
+import { windowContext } from "../../context/WindowControls";
+
+const MacWindow = ({children,width="45vw",height="45vh",title="shikherpant -zsh",page=""}) => {
+    
     const nodeRef = useRef(null);
+
+    const windowData=useContext(windowContext)
+    const{windowStates,setWindowStates}=windowData
+
   return (
     <Rnd
         nodeRef={nodeRef}
@@ -23,7 +30,7 @@ const MacWindow = ({children,width="45vw",height="45vh",title="shikherpant -zsh"
         <div ref={nodeRef} className="mac-window">
             <div className="window-nav">
                 <div className="dots">
-                    <div className="dot red"></div>
+                    <div className="dot red" onClick={()=>setWindowStates({...windowStates,[page]:false})}></div>
                     <div className="dot yellow"></div>
                     <div className="dot green"></div>
                 </div>
