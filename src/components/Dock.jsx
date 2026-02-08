@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import "./dock.scss"
 import { windowContext } from "../context/WindowControls"
+import githubIcon from "../assets/doc-icons/github.svg"
 
 const Dock = () => {
 
@@ -9,7 +10,7 @@ const Dock = () => {
 
   return (
     <section className="dock">
-        <div className="icon github" onClick={()=>setWindowStates({...windowStates,github:true})}><img src="/src/assets/doc-icons/github.svg" alt="" /></div>
+        <div className="icon github" onClick={()=>setWindowStates({...windowStates,github:true})}><img src={githubIcon} alt="" /></div>
         <div className="icon note" onClick={()=>setWindowStates({...windowStates,notes:true})}><img src="/src/assets/doc-icons/note.svg" alt="" /></div>
         <div className="icon pdf" onClick={()=>setWindowStates({...windowStates,pdf:true})}><img src="/src/assets/doc-icons/pdf.svg" alt="" /></div>
         <div className="icon calender"><img src="/src/assets/doc-icons/calender.svg" alt="" onClick={()=>{window.open("https://calendar.google.com/calendar","_blank")}} /></div>
