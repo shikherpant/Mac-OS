@@ -11,7 +11,7 @@
   {
     "id": 2,
     "image": "https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "title": "AyurFit – Know Your Dosha",
+    "title": "AyurFit – Check Dosha",
     "description": "A responsive React website that lets users determine their Ayurvedic body type (Vata, Pitta, Kapha) by answering a series of questions. Built with React and styled with HTML/CSS animations.",
     "tags": ["React", "JavaScript", "CSS", "HTML", "GSAP"],
     "repoLink": "https://github.com/shikherpant/AyurFit",
@@ -19,22 +19,23 @@
   },
   {
     "id": 3,
-    "image": "https://github.com/shikherpant/Socc-AR/blob/master/SparkProject/textures/ground.jpg?raw=true",
-    "title": "Socc-AR",
-    "description": "An AR-focused JavaScript project (An Instagram filter made for JordIndians youtube channel during my internship in School of Innovation by FACEBOOK).",
-    "tags": ["JavaScript", "Augmented Reality", "SparkAR"],
-    "repoLink": "https://github.com/shikherpant/Socc-AR",
-    "demoLink": null
-  },
-  {
-    "id": 4,
-    "image": "https://raw.githubusercontent.com/shikherpant/Mac-OS/main/README.md",
+    "image": "https://github.com/shikherpant/Mac-OS/blob/main/src/assets/github_thumbnail.png?raw=true",
     "title": "Mac-OS Utilities/Project",
     "description": "A MacOS style portfolio site. Features included github window, notes taking, resume viewer, calander, spotify embeded , Terminal etc",
     "tags": ["HTML","SCSS","JavaScript","React JS"],
     "repoLink": "https://github.com/shikherpant/Mac-OS",
     "demoLink": null
   },
+  {
+    "id": 4,
+    "image": "https://github.com/shikherpant/Socc-AR/blob/master/SparkProject/textures/ground.jpg?raw=true",
+    "title": "Socc-AR",
+    "description": "An AR-focused JavaScript project (An Instagram filter made for JordIndians youtube channel during my internship cum competition in School of Innovation by FACEBOOK). Competition Rank - TOP 5 IN INDIA ",
+    "tags": ["JavaScript", "Augmented Reality", "SparkAR"],
+    "repoLink": "https://github.com/shikherpant/Socc-AR",
+    "demoLink": null
+  },
+  
   {
     "id": 5,
     "image": "https://i9.ytimg.com/vi/at6_Gg69Ib8/mq2.jpg?v=5e2d99e2&sqp=COzCoswG-oaymwEoCMACELQB8quKqQMcGADwAQH4AZQDgALQBYoCDAgAEAEYciBJKCkwDw==&rs=AOn4CLBLzL3MuxM_2rzdpaAQlroDasc0kw",
@@ -55,9 +56,9 @@
   },
   {
     "id": 7,
-    "image": "https://images.unsplash.com/photo-1695388474402-ed805a890d8d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "image": "https://images.unsplash.com/vector-1751914322578-ae213b56e481?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Resume",
-    "description": "Your resume hosted as a GitHub repository.",
+    "description": "Resume hosted as a GitHub repository.",
     "tags": ["Documentation"],
     "repoLink": "https://github.com/shikherpant/Resume",
     "demoLink": null
