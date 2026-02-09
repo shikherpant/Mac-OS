@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "image": "https://i9.ytimg.com/vi_webp/ks-bni2t5tk/mq3.webp?sqp=COzCoswG&rs=AOn4CLCGTqHcLQP4waVopnsXy0_5OyVLYQ",
+    "image": "https://github.com/shikherpant/AR-FunBook/blob/master/AR-Funbook-Thumbnail.jpg?raw=true",
     "title": "AR FunBook",
     "description": "An augmented reality based Android app designed for teaching kids in an innovative way.",
     "tags": ["C#", "Unity", "Augmented Reality"],
-    "repoLink": "https://github://github.com/shikherpant/AR-FunBook",
+    "repoLink": "https://github.com/shikherpant/AR-FunBook",
     "demoLink": "https://youtu.be/ks-bni2t5tk"
   },
   {
@@ -38,7 +38,7 @@
   
   {
     "id": 5,
-    "image": "https://i9.ytimg.com/vi/at6_Gg69Ib8/mq2.jpg?v=5e2d99e2&sqp=COzCoswG-oaymwEoCMACELQB8quKqQMcGADwAQH4AZQDgALQBYoCDAgAEAEYciBJKCkwDw==&rs=AOn4CLBLzL3MuxM_2rzdpaAQlroDasc0kw",
+    "image": "https://github.com/shikherpant/Smart-Volume-Controller/blob/master/SmartVolumeController-Thumbnail.jpg?raw=true",
     "title": "Smart Volume Controller",
     "description": "A utility software that controls desktop/laptop audio using hand gestures with live video input.",
     "tags": ["Python", "OpenCV", "Gesture Recognition"],
@@ -47,7 +47,7 @@
   },
   {
     "id": 6,
-    "image": "https://i9.ytimg.com/vi_webp/XNjAzwn9ZbM/mq3.webp?sqp=COzCoswG-oaymwEoCMACELQB8quKqQMcGADwAQH4Ad4EgAK4CIoCDAgAEAEYZSBVKEwwDw==&rs=AOn4CLBZN_4PygURpvGuzm7OY8y0Yok29w",
+    "image": "https://github.com/shikherpant/AR-Greeting-Card/blob/master/ARGreetingCard-Thumbnail.jpg?raw=true",
     "title": "AR Greeting Card",
     "description": "An Android application that lets you send beautiful augmented reality greeting cards.",
     "tags": ["C#", "Unity", "Android"],
