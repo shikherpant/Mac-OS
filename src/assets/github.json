@@ -15,7 +15,7 @@
     "description": "A responsive React website that lets users determine their Ayurvedic body type (Vata, Pitta, Kapha) by answering a series of questions. Built with React and styled with HTML/CSS animations.",
     "tags": ["React", "JavaScript", "CSS", "HTML", "GSAP"],
     "repoLink": "https://github.com/shikherpant/AyurFit",
-    "demoLink": null
+    "demoLink": "https://ayur-fit.vercel.app/"
   },
   {
     "id": 3,
